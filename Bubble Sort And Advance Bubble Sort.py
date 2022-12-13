@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
 # Bubble Sort using Python 
 
 size = int(input("Enter The Size Of Array : "))
@@ -20,11 +14,9 @@ for i in range(0,size-1):
             temp=L1[j]
             L1[j]=L1[j+1]
             L1[j+1]=temp
-print("After Sort Using Bubble Sort : ",L1)
+print("After  Using Bubble Sort : ",L1)
 
-
-# In[6]:
-
+# ****************************************************************************************
 
 # Advance Bubble Sort using Python 
 
@@ -47,11 +39,4 @@ for i in range(0,size-1):
     if(count==0):
         break;
             
-print("After Sort Using Bubble Sort : ",L1)
-
-
-# In[ ]:
-
-
-
-
+print("After Using Bubble Sort : ",L1)
